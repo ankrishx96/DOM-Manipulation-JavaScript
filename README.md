@@ -26,7 +26,7 @@ console.log(spanHi.id);
  spanBye.id = "newid";
  
  # Remove Attribute
-  spanHi.removeAttribute("title");
+     spanHi.removeAttribute("title");
 
 // Data Set
 
