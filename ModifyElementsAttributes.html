@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <span title="hello" id="hi">Hello</span>
+      <span id="bye">Bye</span>
+    </div>
+    <script>
+      const div = document.querySelector("div");
+      const spanHi = document.querySelector("#hi");
+      const spanBye = document.querySelector("#bye");
+
+      // Get Attributes
+      console.log(spanHi.getAttribute("id"));
+      console.log(spanHi.id);
+
+      // Set Attributes
+      spanHi.setAttribute("id", "changed");
+      spanBye.id = "newid";
+
+      // Remove Attribute
+      spanHi.removeAttribute("title");
+    </script>
+  </body>
+</html>
