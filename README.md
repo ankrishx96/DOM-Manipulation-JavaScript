@@ -41,7 +41,7 @@ console.log(spanHi.id);
       // Adding New Class
       spanHi.classList.add("new-class");
 
-      // Removing Class
+      # Removing Class
       spanHi.classList.remove("hi2");
 
       // Toggle
