@@ -1,32 +1,32 @@
-// Adding Elements
+## Adding Elements
 document.append();  // Append Nodes & Strings || Append Multiple
 document.appendChild(); // Append Nodes || Append Only 1 Node
 
-// Creating Elements
+## Creating Elements
 document.createElement('div');
 
-// Modifying Element Text
+## Modifying Element Text
 div.innerText = "Hello";
 div.textContent = "Hello"
 
-// Removing from HTML
+## Removing from HTML
 const spanBye = document.querySelector("#bye");
 spanBye.remove();
-
+OR
 div.removeChild(spanHi)
 
 ## Modify Elements Attributes
 
 # Get Attributes
-      console.log(spanHi.getAttribute("id"));
-      console.log(spanHi.id);
+console.log(spanHi.getAttribute("id"));
+console.log(spanHi.id);
 
-      // Set Attributes
-      spanHi.setAttribute("id", "changed");
-      spanBye.id = "newid";
-
-            // Remove Attribute
-            spanHi.removeAttribute("title");
+# Set Attributes
+ spanHi.setAttribute("id", "changed");
+ spanBye.id = "newid";
+ 
+ # Remove Attribute
+  spanHi.removeAttribute("title");
 
 // Data Set
 
